@@ -1,0 +1,473 @@
+@media screen and (max-width: 414px){
+  body{
+  margin: 0;
+  background-color: gold;
+  color: steelblue;
+  text-align: center;
+  font-size: 25px;
+  font-family: Meiryo;
+}
+
+#dSns{
+  width: 100%;
+  position: fixed;
+  z-index: 100;
+}
+
+.dSns{
+  float: left;
+  width: 24.68%;
+  border: solid 1px white;
+  background-color: steelblue; 
+}
+
+.aSns{
+  color: gold;
+  text-decoration: none;
+  display: block;
+}
+
+#iBack{
+  width: 100%;
+  height: 700px;
+  position: absolute;
+  z-index: -1;
+  top: 0px;
+  left: 0px;
+}
+
+#dUp{
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  background-color: steelblue;
+  position: fixed;
+  top: 85%;
+  left: 85%;
+  font-size: 55px;
+  cursor: pointer;
+  visibility: hidden;
+  color: gold;
+  z-index: 100;
+}
+
+#dIntr{
+  padding-top: 70px;
+}
+
+#pIntr{
+  color: gold;
+  text-shadow:1px 0 0 black,
+              0 1px 0 black,
+              -1px 0 0 black,
+              0 -1px 0 black;
+  font-weight: bold;
+}
+
+.iPht{
+  border-radius: 50%;
+  width: 400px;
+  height: 400px;
+}
+
+.dCategory{
+  padding-top: 100px;
+  height: 450px;
+}
+
+.dCatePart{
+  float: left;
+  width: 50%;
+}
+
+.dCatePart > p{
+ display: none;
+}
+
+#dCatePartProg{
+  width: 40%;
+  height: 450px;
+  margin-right: 10%;
+}
+
+#dCatePartWrite{
+  width: 40%;
+  height: 450px;
+  margin-left: 10%;
+}
+
+#dCatePartMov{
+  width: 40%;
+  height: 450px;
+  margin-right: 10%;
+}
+
+#dCatePartEtc{
+  width: 40%;
+  height: 450px;
+  margin-left: 10%;
+}
+
+#pProg{
+  font-size: 45px;
+  color: skyblue;
+}
+
+#pWrite{
+  font-size: 45px;
+  color: orange;
+}
+
+#aBlog{
+  color: steelblue;
+}
+
+#pMov{
+  font-size: 45px;
+  color: red;
+}
+
+#pEtc{
+  font-size: 45px;
+  color: green;
+}
+
+.pDtl{
+  text-align: left;
+}
+
+.twitter-timeline{
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+#pBye{
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+footer{
+  background-color: lightgray;
+  color: steelblue;
+  bottom: 0;
+  position: relative;
+  height: 150px;
+}
+}
+
+
+
+@media screen and (min-width: 415px) and (max-width: 959px) {
+  body{
+  margin: 0;
+  background-color: gold;
+  color: steelblue;
+  text-align: center;
+  font-size: 25px;
+  font-family: Meiryo;
+  width: 100%;
+}
+
+#dSns{
+  width: 100%;
+  position: fixed;
+  z-index: 100;
+}
+
+.dSns{
+  float: left;
+  width: 24.68%;
+  border: solid 1px white;
+  background-color: steelblue; 
+}
+
+.aSns{
+  color: gold;
+  text-decoration: none;
+  display: block;
+}
+
+#iBack{
+  width: 100%;
+  height: 800px;
+  position: absolute;
+  z-index: -1;
+  top: 0px;
+  left: 0px;
+}
+
+#dUp{
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  background-color: steelblue;
+  position: fixed;
+  top: 85%;
+  left: 85%;
+  font-size: 55px;
+  cursor: pointer;
+  visibility: hidden;
+  color: gold;
+  z-index: 100;
+}
+
+#dIntr{
+  padding-top: 70px;
+}
+
+#pIntr{
+  color: gold;
+  text-shadow:1px 0 0 black,
+              0 1px 0 black,
+              -1px 0 0 black,
+              0 -1px 0 black;
+  font-weight: bold;
+}
+
+.iPht{
+  border-radius: 50%;
+  width: 400px;
+  height: 400px;
+}
+
+.dCategory{
+  padding-top: 100px;
+  height: 450px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-bottom: 300px;
+}
+
+.dCatePart{
+  width: 100%;
+  height: 450px;
+}
+
+.dCatePart > p{
+ display: none;
+}
+
+#dCatePartWrite{
+  order: 2;
+}
+
+#dCatePartWriteImg{
+  order: 1;
+}
+
+#dCatePartEtc{
+  order: 2;
+}
+
+#dCatePartEtcImg{
+  order: 1;
+}
+
+#pProg{
+  font-size: 45px;
+  color: skyblue;
+}
+
+#pWrite{
+  font-size: 45px;
+  color: orange;
+}
+
+#aBlog{
+  color: steelblue;
+}
+
+#pMov{
+  font-size: 45px;
+  color: red;
+}
+
+#pEtc{
+  font-size: 45px;
+  color: green;
+}
+
+.pDtl{
+  text-align: left;
+}
+
+.twitter-timeline{
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+#pBye{
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+footer{
+  background-color: lightgray;
+  color: steelblue;
+  bottom: 0;
+  position: relative;
+  height: 150px;
+  width: 100%;
+}
+}
+
+
+
+
+@media screen and (min-width: 960px) {
+  body{
+  margin: 0;
+  background-color: gold;
+  color: steelblue;
+  text-align: center;
+  font-size: 25px;
+  font-family: Meiryo;
+}
+
+#dSns{
+  width: 100%;
+  position: fixed;
+  z-index: 100;
+}
+
+.dSns{
+  float: left;
+  width: 24.68%;
+  border: solid 1px white;
+  background-color: steelblue; 
+}
+
+.aSns{
+  color: gold;
+  text-decoration: none;
+  display: block;
+}
+
+#iBack{
+  width: 100%;
+  height: 700px;
+  position: absolute;
+  z-index: -1;
+  top: 0px;
+  left: 0px;
+}
+
+#dUp{
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  background-color: steelblue;
+  position: fixed;
+  top: 85%;
+  left: 85%;
+  font-size: 55px;
+  cursor: pointer;
+  visibility: hidden;
+  color: gold;
+  z-index: 100;
+}
+
+#dIntr{
+  padding-top: 70px;
+}
+
+#pIntr{
+  color: gold;
+  text-shadow:1px 0 0 black,
+              0 1px 0 black,
+              -1px 0 0 black,
+              0 -1px 0 black;
+  font-weight: bold;
+}
+
+.iPht{
+  border-radius: 50%;
+  width: 400px;
+  height: 400px;
+}
+
+.dCategory{
+  padding-top: 100px;
+  height: 450px;
+}
+
+.dCatePart{
+  float: left;
+  width: 50%;
+}
+
+.dCatePart > p{
+ display: none;
+}
+
+#dCatePartProg{
+  width: 40%;
+  height: 450px;
+  margin-right: 10%;
+}
+
+#dCatePartWrite{
+  width: 40%;
+  height: 450px;
+  margin-left: 10%;
+}
+
+#dCatePartMov{
+  width: 40%;
+  height: 450px;
+  margin-right: 10%;
+}
+
+#dCatePartEtc{
+  width: 40%;
+  height: 450px;
+  margin-left: 10%;
+}
+
+#pProg{
+  font-size: 45px;
+  color: skyblue;
+}
+
+#pWrite{
+  font-size: 45px;
+  color: orange;
+}
+
+#aBlog{
+  color: steelblue;
+}
+
+#pMov{
+  font-size: 45px;
+  color: red;
+}
+
+#pEtc{
+  font-size: 45px;
+  color: green;
+}
+
+.pDtl{
+  text-align: left;
+}
+
+.twitter-timeline{
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+#pBye{
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+footer{
+  background-color: lightgray;
+  color: steelblue;
+  bottom: 0;
+  position: relative;
+  height: 150px;
+}
+}
